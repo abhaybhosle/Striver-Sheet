@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class LinearSearch {
+public class LinearSearch8 {
     // Time Complexity: O(n), where n is the length of the array.
     // Space Complexity: O(1)
     static int linearsearch(int arr[], int search) {

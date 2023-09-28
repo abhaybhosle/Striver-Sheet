@@ -2,7 +2,7 @@ package Arrays.Easy;
 
 import java.util.Arrays;
 
-public class LargestElement {
+public class LargestElement1 {
     //Brute Force Approach
     static int LE(int arr[]) {
         int n = arr.length;

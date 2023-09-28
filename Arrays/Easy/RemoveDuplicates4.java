@@ -1,6 +1,5 @@
 package Arrays.Easy;
 
-import java.sql.Time;
 import java.util.*;
 
 /*
@@ -18,7 +17,7 @@ Output: arr[1,2,3,_,_,_,_]
 
 Explanation: Total number of unique elements are 3, i.e[1,2,3] and Therefore return 3 after assigning [1,2,3] in the beginning of the array.
  */
-public class RemoveDuplicates {
+public class RemoveDuplicates4 {
 
     // Brute Force Approach -
     // Time complexity: O(n*log(n))+O(n)

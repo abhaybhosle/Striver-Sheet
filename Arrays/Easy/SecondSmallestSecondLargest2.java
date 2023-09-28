@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class SecondSmallestSecondLargest {
+public class SecondSmallestSecondLargest2 {
     //Optimal Approach - 
     //Time Complexity: O(N), Single-pass solution 
     //Space Complexity: O(1)

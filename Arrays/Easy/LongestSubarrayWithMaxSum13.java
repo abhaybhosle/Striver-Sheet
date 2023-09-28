@@ -1,6 +1,6 @@
 package Arrays.Easy;
 
-public class LongestSubarrayWithMaxSum {
+public class LongestSubarrayWithMaxSum13 {
     //Brute force - TC - O(N3)
     static int getLongestSubarray(int[] a, long k) { //input is always positive
         int n = a.length; // size of the array.

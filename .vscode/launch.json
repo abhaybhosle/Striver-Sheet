@@ -1,0 +1,45 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Program2",
+      "request": "launch",
+      "mainClass": "Recursion.Program2",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "LinearSearch8",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.LinearSearch8",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "LongestSubarrayWithMaxSum13",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.LongestSubarrayWithMaxSum13",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/Abhay Bhosle/Desktop/Striver Sheet",
+      "program": "c:/Users/Abhay Bhosle/Desktop/Striver Sheet/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "FindTriplets",
+      "request": "launch",
+      "mainClass": "FindTriplets",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "MaxSubarraySum",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.MaxSubarraySum",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "A",
+      "request": "launch",
+      "mainClass": "A",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "Sort_Colors",
       "request": "launch",
       "mainClass": "Arrays.Easy.Sort_Colors",

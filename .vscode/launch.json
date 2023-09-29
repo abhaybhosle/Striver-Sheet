@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "MaximumProductSubarray",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.MaximumProductSubarray",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "Q9",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.Q9",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "Program2",
       "request": "launch",
       "mainClass": "Recursion.Program2",

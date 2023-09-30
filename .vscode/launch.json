@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Move_All_zeros_to_endOfArray",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.Move_All_zeros_to_endOfArray",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "LeftRotateArrayByOne",
       "request": "launch",
       "mainClass": "Arrays.Easy.LeftRotateArrayByOne",

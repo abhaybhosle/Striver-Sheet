@@ -32,7 +32,7 @@ public class LongestSubarrayWithMaxSum13 {
 
         while (right < n) {
             currentSum += arr[right]; // Add the element at the right pointer to the current sum
-
+            
             if (currentSum == k) {
                 int currLength = right - left + 1; // Calculate the current subarray length
                 maxLength = Math.max(maxLength, currLength); // Update maxLength if the current length is greater

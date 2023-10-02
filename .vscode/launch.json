@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CountSubarrayWithGivenSum",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.CountSubarrayWithGivenSum",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "SpiralMatrixTraversal",
       "request": "launch",
       "mainClass": "Arrays.Medium.SpiralMatrixTraversal",

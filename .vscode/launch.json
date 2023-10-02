@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.TwoSum",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "LongestSubarraywithsumKPostivesandNegatives",
       "request": "launch",
       "mainClass": "Arrays.Easy.LongestSubarraywithsumKPostivesandNegatives",

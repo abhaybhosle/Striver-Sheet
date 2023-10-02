@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Sort_Colors",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.Sort_Colors",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "TwoSum",
       "request": "launch",
       "mainClass": "Arrays.Medium.TwoSum",

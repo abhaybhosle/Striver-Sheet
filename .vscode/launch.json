@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StockBuyAndSell",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.StockBuyAndSell",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "Sort_Colors",
       "request": "launch",
       "mainClass": "Arrays.Medium.Sort_Colors",

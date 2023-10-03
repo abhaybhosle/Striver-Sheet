@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SetMatrixZero",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.SetMatrixZero",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "KadanesAlgorithm",
       "request": "launch",
       "mainClass": "Arrays.Medium.KadanesAlgorithm",

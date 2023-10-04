@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RotateImage",
+      "request": "launch",
+      "mainClass": "Arrays.Medium.RotateImage",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "SetMatrixZero",
       "request": "launch",
       "mainClass": "Arrays.Medium.SetMatrixZero",

@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "LastOccur",
+      "request": "launch",
+      "mainClass": "LastOccur",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "RotateImage",
       "request": "launch",
       "mainClass": "Arrays.Medium.RotateImage",

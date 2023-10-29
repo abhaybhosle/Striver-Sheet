@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayStack",
+      "request": "launch",
+      "mainClass": "Stacks.ArrayStack",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "LastOccur",
       "request": "launch",
       "mainClass": "LastOccur",

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "BestTimeToBuySellStock2",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.BestTimeToBuySellStock2",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "BestTimeToBuySellStock1",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.BestTimeToBuySellStock1",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
+      "name": "ContainsMostWater",
+      "request": "launch",
+      "mainClass": "Arrays.Easy.ContainsMostWater",
+      "projectName": "Striver Sheet_141464eb"
+    },
+    {
+      "type": "java",
       "name": "ReverseAString",
       "request": "launch",
       "mainClass": "Stacks.ReverseAString",

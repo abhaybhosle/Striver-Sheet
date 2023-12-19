@@ -1,5 +1,6 @@
 package Arrays.Easy;
 public class RotateArrayByDPlace {
+    
     static void reverse(int nums[], int start, int end) {
         while (start < end) {
             int temp = nums[start];

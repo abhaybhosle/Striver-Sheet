@@ -57,6 +57,7 @@ class Solution {
         // Update the current node's 'next' pointer to skip the next node
         node.next = node.next.next;
     }
+
 }
 
 public class Day2Q4 {

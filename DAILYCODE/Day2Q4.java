@@ -43,18 +43,57 @@ class Solution {
 
         return true;
     }
+
+    public void deleteNode(ListNode node) {
+        if (node == null || node.next == null) {
+            // Invalid input or cannot delete the last node using this method
+            return;
+        }
+
+        // Copy the value of the next node to the current node
+        node.val = node.next.val;
+
+        // Update the current node's 'next' pointer to skip the next node
+        node.next = node.next.next;
+    }
 }
 
 public class Day2Q4 {
     public static void main(String[] args) {
-        // Example usage
-        ListNode head = new ListNode(1);
-        head.next = new ListNode(2);
-        head.next.next = new ListNode(2);
-        head.next.next.next = new ListNode(1);
+        // Example usage for checking palindrome
+        ListNode head1 = new ListNode(1);
+        head1.next = new ListNode(2);
+        head1.next.next = new ListNode(2);
+        head1.next.next.next = new ListNode(1);
 
         Solution solution = new Solution();
-        boolean isPalindrome = solution.isPalindrome(head);
+        boolean isPalindrome = solution.isPalindrome(head1);
         System.out.println("Is the linked list a palindrome? " + isPalindrome);
+
+        // Example usage for deleting a node
+        ListNode head2 = new ListNode(1);
+        head2.next = new ListNode(2);
+        head2.next.next = new ListNode(3);
+        head2.next.next.next = new ListNode(4);
+        head2.next.next.next.next = new ListNode(5);
+
+        System.out.println("\nBefore deleting node with value 3:");
+        printLinkedList(head2);
+
+        // Delete node with value 3
+        ListNode nodeToDelete = head2.next.next;
+        solution.deleteNode(nodeToDelete);
+
+        System.out.println("\nAfter deleting node with value 3:");
+        printLinkedList(head2);
+    }
+
+    public static void printLinkedList(ListNode head) {
+        ListNode current = head;
+        while (current != null) {
+            System.out.print(current.val + " -> ");
+            current = current.next;
+        }
+        System.out.println("null");
     }
 }

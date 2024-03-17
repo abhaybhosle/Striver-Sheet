@@ -18,6 +18,7 @@ class ListNode {
 }
 
 class Solution {
+    //Palindrome LinkedList
     public boolean isPalindrome(ListNode head) {
         ListNode slow = head;
         ListNode fast = head;
@@ -43,7 +44,7 @@ class Solution {
 
         return true;
     }
-
+    //Delete node from the given ques
     public void deleteNode(ListNode node) {
         if (node == null || node.next == null) {
             // Invalid input or cannot delete the last node using this method

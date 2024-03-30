@@ -27,3 +27,7 @@ public class Count {
         sc.close();
     }
 }
+/*
+Write a program that takes in a string as input and counts the number of alphabets, digits, and 
+special characters present in the string.
+ */

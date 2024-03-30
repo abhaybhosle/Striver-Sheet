@@ -25,3 +25,6 @@ public class RotateRIghtBytwoPos {
         }
     }
 }
+/*
+You are required to create a program that performs a right rotation of array elements by two positions.
+ */

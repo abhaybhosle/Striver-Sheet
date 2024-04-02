@@ -1,3 +1,20 @@
+/*
+Given a list arr of N integers, return sums of all subsets in it.
+
+Example 1:
+Input:
+N = 2
+arr[] = {2, 3}
+Output:
+0 2 3 5
+Explanation:
+When no elements is taken then Sum = 0.
+When only 2 is taken then Sum = 2.
+When only 3 is taken then Sum = 3.
+When element 2 and 3 are taken then 
+Sum = 2+3 = 5.
+*/
+
 public class SubsetSum {
 
     public static void subsetSums(int[] arr, int index, int currentSum) {

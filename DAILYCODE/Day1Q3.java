@@ -8,8 +8,6 @@ public class Day1Q3 {
         System.out.println("Enter the size followed by the input numbers : ");
         Scanner scanner = new Scanner(System.in);
         
-
-
         int size = scanner.nextInt();
 
         int[] arr = new int[size];
@@ -32,6 +30,7 @@ public class Day1Q3 {
             System.out.print("Repeated elements are : "+num+ " ");
             
         }
+        scanner.close();
         
     }
 }

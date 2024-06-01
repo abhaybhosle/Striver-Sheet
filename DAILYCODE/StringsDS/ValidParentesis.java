@@ -28,7 +28,6 @@ public class ValidParentesis {
             return false;
         }
     }
-
     public static void main(String[] args) {
         String s = "(())";
         boolean isValid = validPare(s);
